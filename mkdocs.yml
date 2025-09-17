@@ -1,0 +1,76 @@
+site_name: Horilla Docs
+site_description: Dokumentasi modular Horilla HRMS (Arsitektur, Admin, User, RBAC, Security, AI, API)
+site_url: https://example.com/horilla-docs
+repo_url: https://github.com/horilla-opensource/horilla
+repo_name: horilla-opensource/horilla
+edit_uri: ""
+
+# pakai root directory karena file .md ada di root
+docs_dir: docs
+dev_addr: 127.0.0.1:8085
+
+theme:
+  name: material
+  language: id
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Mode gelap
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Mode terang
+
+nav:
+  - Arsitektur: 01-arsitektur.md
+  - System Administrator: 02-system-administrator.md
+  - Panduan User: 03-user-guide.md
+  - RBAC & CRUD: 04-rbac-crud.md
+  - Security: 05-security.md
+  - Integrasi AI: 06-ai-integration.md
+  - API: 07-api.md
+
+plugins:
+  - search
+  #  - autorefs
+  # - mermaid2  # aktifkan kalau pakai diagram mermaid
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - pymdownx.details
+  - pymdownx.critic
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+      toc_depth: 3
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/horilla-opensource/horilla
