@@ -1,11 +1,15 @@
 site_name: Horilla Docs
 site_description: Dokumentasi modular Horilla HRMS (Arsitektur, Admin, User, RBAC, Security, AI, API)
-site_url: https://example.com/horilla-docs
-repo_url: https://github.com/horilla-opensource/horilla
-repo_name: horilla-opensource/horilla
-edit_uri: ""
+site_url: https://bontiharyanto.github.io/horiladoc/
 
-# pakai root directory karena file .md ada di root
+# saat dev lokal, sebaiknya kosongkan atau komentari site_url
+# site_url: https://example.com/horilla-docs
+
+# ganti ke repo kamu sendiri kalau ini docs di repo kamu
+repo_url: https://github.com/bontiharyanto/horiladoc
+repo_name: bontiharyanto/horiladoc
+edit_uri: "edit/main/docs/"
+
 docs_dir: docs
 dev_addr: 127.0.0.1:8085
 
@@ -38,6 +42,7 @@ theme:
         name: Mode terang
 
 nav:
+  - Home: index.md
   - Arsitektur: 01-arsitektur.md
   - System Administrator: 02-system-administrator.md
   - Panduan User: 03-user-guide.md
@@ -48,10 +53,14 @@ nav:
 
 plugins:
   - search
-  #  - autorefs
-  # - mermaid2  # aktifkan kalau pakai diagram mermaid
+  # - autorefs   # aktifkan kalau sudah di-inject: pipx inject mkdocs mkdocs-autorefs
+  # - mermaid2   # aktifkan kalau mau diagram mermaid
 
 markdown_extensions:
+  # pakai modul emoji baru di mkdocs-material ≥ 9.4
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - admonition
   - attr_list
   - def_list
