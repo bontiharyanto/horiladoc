@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://example.com/horilla-docs/</loc>
+         <lastmod>2025-09-17</lastmod>
+    </url>
+    <url>
+         <loc>https://example.com/horilla-docs/01-arsitektur/</loc>
+         <lastmod>2025-09-17</lastmod>
+    </url>
+    <url>
+         <loc>https://example.com/horilla-docs/02-system-administrator/</loc>
+         <lastmod>2025-09-17</lastmod>
+    </url>
+    <url>
+         <loc>https://example.com/horilla-docs/03-user-guide/</loc>
+         <lastmod>2025-09-17</lastmod>
+    </url>
+    <url>
+         <loc>https://example.com/horilla-docs/04-rbac-crud/</loc>
+         <lastmod>2025-09-17</lastmod>
+    </url>
+    <url>
+         <loc>https://example.com/horilla-docs/05-security/</loc>
+         <lastmod>2025-09-17</lastmod>
+    </url>
+    <url>
+         <loc>https://example.com/horilla-docs/06-ai-integration/</loc>
+         <lastmod>2025-09-17</lastmod>
+    </url>
+    <url>
+         <loc>https://example.com/horilla-docs/07-api/</loc>
+         <lastmod>2025-09-17</lastmod>
+    </url>
+</urlset>
