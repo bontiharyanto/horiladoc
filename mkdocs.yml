@@ -87,40 +87,32 @@ plugins:
   # - autorefs   # aktifkan kalau sudah di-inject: pipx inject mkdocs mkdocs-autorefs
   # - mermaid2   # aktifkan kalau mau diagram mermaid
 
+plugins:
+  - search
+
 markdown_extensions:
-  - tables            # <— WAJIB untuk tabel markdown
-  - pymdownx.superfences
-  - pymdownx.details
-  - pymdownx.highlight:
-      anchor_linenums: true
-      linenums: true 
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
-  - pymdownx.details
-  - pymdownx.highlight:
-      anchor_linenums: true
-      linenums: true
-  # pakai modul emoji baru di mkdocs-material ≥ 9.4
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - tables
   - admonition
   - attr_list
   - def_list
   - footnotes
   - pymdownx.details
   - pymdownx.critic
-  - pymdownx.superfences
-  - pymdownx.highlight:
-      anchor_linenums: true
-      linenums: true
   - pymdownx.inlinehilite
   - pymdownx.keys
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      linenums: true
+  - pymdownx.superfences:        # <— HANYA SEKALI
+      custom_fences:
+        - name: mermaid          # fence ```mermaid
+          class: mermaid         # akan jadi <div class="mermaid">…</div>
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - toc:
       permalink: true
       toc_depth: 3
@@ -128,9 +120,6 @@ markdown_extensions:
 extra_javascript:
   - https://unpkg.com/mermaid@10/dist/mermaid.min.js
   - js/mermaid-init.js
-  
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/horilla-opensource/horilla
+  - js/mermaid-shim.js
+
 
