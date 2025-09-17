@@ -4,7 +4,6 @@ site_url: https://bontiharyanto.github.io/horiladoc/
 
 # saat dev lokal, sebaiknya kosongkan atau komentari site_url
 # site_url: https://example.com/horilla-docs
-
 # ganti ke repo kamu sendiri kalau ini docs di repo kamu
 repo_url: https://github.com/bontiharyanto/horiladoc
 repo_name: bontiharyanto/horiladoc
@@ -46,10 +45,42 @@ nav:
   - Arsitektur: 01-arsitektur.md
   - System Administrator: 02-system-administrator.md
   - Panduan User: 03-user-guide.md
+
+  - Modul Pengguna:
+      - Recruitment: user/user-recruitment.md
+      - Onboarding: user/user-onboarding.md
+      - Employee Management: user/user-employee-management.md
+      - Attendance Tracking: user/user-attendance-tracking.md
+      - Leave Management: user/user-leave-management.md
+      - Asset Management: user/user-asset-management.md
+      - Payroll: user/user-payroll.md
+      - Performance Management: user/user-performance-management.md
+      - Offboarding: user/user-offboarding.md
+      - Helpdesk: user/user-helpdesk.md
+      - Calendar (Beta): user/user-calendar.md
+      - Project Management (Beta): user/user-project-management.md
+
+  - "Modul Admin":
+      - Recruitment (Admin): admin/admin-recruitment.md
+      - Onboarding (Admin): admin/admin-onboarding.md
+      - Employee Management (Admin): admin/admin-employee-management.md
+      - Attendance Tracking (Admin): admin/admin-attendance-tracking.md
+      - Leave Management (Admin): admin/admin-leave-management.md
+      - Asset Management (Admin): admin/admin-asset-management.md
+      - Payroll (Admin): admin/admin-payroll.md
+      - Performance Management (Admin): admin/admin-performance-management.md
+      - Offboarding (Admin): admin/admin-offboarding.md
+      - Helpdesk (Admin): admin/admin-helpdesk.md
+      - Calendar (Admin/Beta): admin/admin-calendar.md
+      - Project Management (Admin/Beta): admin/admin-project-management.md
+
   - RBAC & CRUD: 04-rbac-crud.md
   - Security: 05-security.md
   - Integrasi AI: 06-ai-integration.md
   - API: 07-api.md
+
+
+
 
 plugins:
   - search
@@ -57,6 +88,21 @@ plugins:
   # - mermaid2   # aktifkan kalau mau diagram mermaid
 
 markdown_extensions:
+  - tables            # <— WAJIB untuk tabel markdown
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      linenums: true 
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      linenums: true
   # pakai modul emoji baru di mkdocs-material ≥ 9.4
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
@@ -79,7 +125,12 @@ markdown_extensions:
       permalink: true
       toc_depth: 3
 
+extra_javascript:
+  - https://unpkg.com/mermaid@10/dist/mermaid.min.js
+  - js/mermaid-init.js
+  
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/horilla-opensource/horilla
+

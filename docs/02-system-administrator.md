@@ -1,13 +1,13 @@
 
 ---
 
-## 📄 Ganti isi `02-system-administrator.md` dengan yang ini
+## 02-system-administrator.md
 
 ```markdown
 # :material-shield-crown: Panduan System Administrator
 
 > Untuk admin aplikasi/infra: install, konfigurasi, operasi, keamanan, scaling, backup/restore, dan runbook.
-
+```
 ---
 
 ## :material-account-cog: Peran & Tanggung Jawab

@@ -1,10 +1,10 @@
-# :material-account-circle: Panduan Pengguna Horilla
+# material-account-circle: Panduan Pengguna Horilla
 
 > Untuk **karyawan (user biasa)** dan **atasan (manager)**. Dilengkapi ikon & placeholder screenshot—ganti file di folder `img/`.
 
 ---
 
-## :material-rocket-launch: Mulai Cepat
+## material-rocket-launch: Mulai Cepat
 
 1. Buka aplikasi: `https://app.domain`
 2. Login dengan **username & password** atau **SSO/LDAP** (jika diaktifkan)
@@ -17,7 +17,7 @@
 
 ---
 
-## :material-view-dashboard: Navigasi Utama
+## material-view-dashboard: Navigasi Utama
 
 - :material-card-account-details-outline: **Profile**
 - :material-calendar-check: **Attendance**
@@ -29,7 +29,7 @@
 
 ---
 
-## :material-card-account-details: Profil Karyawan
+## material-card-account-details: Profil Karyawan
 
 ### Lihat & Ubah Profil
 1. Masuk **Profile**
@@ -43,7 +43,7 @@
 
 ---
 
-## :material-calendar-check: Kehadiran (Attendance)
+## material-calendar-check: Kehadiran (Attendance)
 
 ### Check-In / Check-Out
 1. Buka **Attendance**
@@ -64,7 +64,7 @@
 
 ---
 
-## :material-beach: Cuti (Leave)
+## material-beach: Cuti (Leave)
 
 ### Ajukan Cuti
 1. **Leave → Apply Leave**
