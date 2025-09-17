@@ -57,8 +57,8 @@ nav:
       - Performance Management: user/user-performance-management.md
       - Offboarding: user/user-offboarding.md
       - Helpdesk: user/user-helpdesk.md
-      - Calendar (Beta): user/user-calendar.md
-      - Project Management (Beta): user/user-project-management.md
+      - Calendar: user/user-calendar.md
+      - Project Management: user/user-project-management.md
 
   - "Modul Admin":
       - Recruitment (Admin): admin/admin-recruitment.md
