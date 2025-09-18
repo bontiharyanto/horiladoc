@@ -42,6 +42,7 @@ theme:
 
 nav:
   - Home: index.md
+  - Readme: 00-Readme.md
   - Arsitektur: 01-arsitektur.md
   - System Administrator: 02-system-administrator.md
   - Panduan User: 03-user-guide.md
@@ -60,7 +61,7 @@ nav:
       - Calendar: user/user-calendar.md
       - Project Management: user/user-project-management.md
 
-  - "Modul Admin":
+  - Modul Admin:
       - Recruitment (Admin): admin/admin-recruitment.md
       - Onboarding (Admin): admin/admin-onboarding.md
       - Employee Management (Admin): admin/admin-employee-management.md
@@ -71,8 +72,20 @@ nav:
       - Performance Management (Admin): admin/admin-performance-management.md
       - Offboarding (Admin): admin/admin-offboarding.md
       - Helpdesk (Admin): admin/admin-helpdesk.md
-      - Calendar (Admin/Beta): admin/admin-calendar.md
-      - Project Management (Admin/Beta): admin/admin-project-management.md
+      - Calendar (Admin): admin/admin-calendar.md
+      - Project Management (Admin): admin/admin-project-management.md
+      - Django Backend (Ops): admin/admin-django-backend.md
+
+  - Modul Addons:
+      - Budget: modules/module-budget.md
+      - AI Assistant: modules/ai-assistant.md
+      - AI Knowledge: modules/ai-knowledge.md
+      - AI Budget Analytics: modules/ai-budget-analytics.md
+      - Project Calendar: modules/project-calendar-integration.md
+      - Webhooks Integrations: modules/webhooks-integrations.md
+      - Data Importer: modules/data-importer.md
+      - SSO-CIM: modules/sso-scim.md
+
 
   - RBAC & CRUD: 04-rbac-crud.md
   - Security: 05-security.md
@@ -86,9 +99,6 @@ plugins:
   - search
   # - autorefs   # aktifkan kalau sudah di-inject: pipx inject mkdocs mkdocs-autorefs
   # - mermaid2   # aktifkan kalau mau diagram mermaid
-
-plugins:
-  - search
 
 markdown_extensions:
   - tables
@@ -117,9 +127,14 @@ markdown_extensions:
       permalink: true
       toc_depth: 3
 
+#extra_javascript:
+#  - https://unpkg.com/mermaid@10/dist/mermaid.min.js
+#  - js/mermaid-init.js
+#  - js/mermaid-shim.js
+
 extra_javascript:
   - https://unpkg.com/mermaid@10/dist/mermaid.min.js
-  - js/mermaid-init.js
   - js/mermaid-shim.js
+
 
 

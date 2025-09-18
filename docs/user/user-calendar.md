@@ -15,13 +15,14 @@ Kalender perusahaan untuk melihat, membuat, dan membagikan acara (meeting, cuti,
 4. **Save** – undangan & notifikasi terkirim
 
 ### Alur Dasar
-<div class="mermaid">
+
+```mermaid
 flowchart TD
   A["Create Event"] --> B{"Konflik jadwal?"}
   B -->|Tidak| C["Save"]
   B -->|Ya| X["Perbaiki waktu"]
   C --> D["Kirim undangan + pengingat"]
-</div>
+```
 
 ## Fitur Utama
 - **Multiple calendars**: My, Team, Company

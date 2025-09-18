@@ -10,14 +10,15 @@ Konfigurasi kalender perusahaan, kategori, pengingat default, serta libur nasion
 - **Access control**: siapa yang bisa membuat company event
 
 ### Alur Publish Event Perusahaan
-<div class="mermaid">
+
+```mermaid
 flowchart TD
   A["Create Company Event"] --> B{"Perlu approval?"}
   B -->|Ya| C["Approve by Admin/HR"]
   B -->|Tidak| D["Publish"]
   C --> D
   D --> E["Notify all subscribers"]
-</div>
+```
 
 ## RBAC (Contoh)
 | Role     | Create (My) | Create (Company) | Update | Delete | Approve |

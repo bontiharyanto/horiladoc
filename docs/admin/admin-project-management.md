@@ -10,13 +10,14 @@ Konfigurasi proyek, board, status, SLA, notifikasi, serta kebijakan akses.
 - **Notifikasi**: assignment, status changed, overdue
 
 ### Alur Pembuatan Project
-<div class="mermaid">
+
+```mermaid
 flowchart TD
   A["Create Project"] --> B["Add Members & Roles"]
   B --> C["Define Columns/Statuses"]
   C --> D["Set Notifications & SLA"]
   D --> E["Go Live"]
-</div>
+```
 
 ## RBAC (Contoh)
 | Role     | Create Project | Manage Members | Edit Tasks | Delete | View All |

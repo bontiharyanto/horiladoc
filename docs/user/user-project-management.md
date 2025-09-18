@@ -15,13 +15,14 @@ Kelola proyek, tugas, dan kolaborasi tim (kanban/list).
 4. Pindah status di **Board** (To Do → In Progress → Review → Done)
 
 ### Alur Task
-<div class="mermaid">
+
+```mermaid
 flowchart LR
   A["New Task"] --> B["In Progress"]
   B --> C{"Review"}
   C -->|Approve| D["Done"]
   C -->|Rework| B
-</div>
+```
 
 ## Fitur Utama
 - **Views**: Board, List, My Tasks
