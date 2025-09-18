@@ -2,130 +2,138 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://bontiharyanto.github.io/horiladoc/</loc>
-         <lastmod>2025-09-17</lastmod>
+         <lastmod>2025-09-18</lastmod>
+    </url>
+    <url>
+         <loc>https://bontiharyanto.github.io/horiladoc/00-Readme/</loc>
+         <lastmod>2025-09-18</lastmod>
     </url>
     <url>
          <loc>https://bontiharyanto.github.io/horiladoc/01-arsitektur/</loc>
-         <lastmod>2025-09-17</lastmod>
+         <lastmod>2025-09-18</lastmod>
     </url>
     <url>
          <loc>https://bontiharyanto.github.io/horiladoc/02-system-administrator/</loc>
-         <lastmod>2025-09-17</lastmod>
+         <lastmod>2025-09-18</lastmod>
     </url>
     <url>
          <loc>https://bontiharyanto.github.io/horiladoc/03-user-guide/</loc>
-         <lastmod>2025-09-17</lastmod>
+         <lastmod>2025-09-18</lastmod>
     </url>
     <url>
          <loc>https://bontiharyanto.github.io/horiladoc/04-rbac-crud/</loc>
-         <lastmod>2025-09-17</lastmod>
+         <lastmod>2025-09-18</lastmod>
     </url>
     <url>
          <loc>https://bontiharyanto.github.io/horiladoc/05-security/</loc>
-         <lastmod>2025-09-17</lastmod>
+         <lastmod>2025-09-18</lastmod>
     </url>
     <url>
          <loc>https://bontiharyanto.github.io/horiladoc/06-ai-integration/</loc>
-         <lastmod>2025-09-17</lastmod>
+         <lastmod>2025-09-18</lastmod>
     </url>
     <url>
          <loc>https://bontiharyanto.github.io/horiladoc/07-api/</loc>
-         <lastmod>2025-09-17</lastmod>
+         <lastmod>2025-09-18</lastmod>
     </url>
     <url>
          <loc>https://bontiharyanto.github.io/horiladoc/admin/admin-asset-management/</loc>
-         <lastmod>2025-09-17</lastmod>
+         <lastmod>2025-09-18</lastmod>
     </url>
     <url>
          <loc>https://bontiharyanto.github.io/horiladoc/admin/admin-attendance-tracking/</loc>
-         <lastmod>2025-09-17</lastmod>
+         <lastmod>2025-09-18</lastmod>
     </url>
     <url>
          <loc>https://bontiharyanto.github.io/horiladoc/admin/admin-calendar/</loc>
-         <lastmod>2025-09-17</lastmod>
+         <lastmod>2025-09-18</lastmod>
+    </url>
+    <url>
+         <loc>https://bontiharyanto.github.io/horiladoc/admin/admin-django-backend/</loc>
+         <lastmod>2025-09-18</lastmod>
     </url>
     <url>
          <loc>https://bontiharyanto.github.io/horiladoc/admin/admin-employee-management/</loc>
-         <lastmod>2025-09-17</lastmod>
+         <lastmod>2025-09-18</lastmod>
     </url>
     <url>
          <loc>https://bontiharyanto.github.io/horiladoc/admin/admin-helpdesk/</loc>
-         <lastmod>2025-09-17</lastmod>
+         <lastmod>2025-09-18</lastmod>
     </url>
     <url>
          <loc>https://bontiharyanto.github.io/horiladoc/admin/admin-leave-management/</loc>
-         <lastmod>2025-09-17</lastmod>
+         <lastmod>2025-09-18</lastmod>
     </url>
     <url>
          <loc>https://bontiharyanto.github.io/horiladoc/admin/admin-offboarding/</loc>
-         <lastmod>2025-09-17</lastmod>
+         <lastmod>2025-09-18</lastmod>
     </url>
     <url>
          <loc>https://bontiharyanto.github.io/horiladoc/admin/admin-onboarding/</loc>
-         <lastmod>2025-09-17</lastmod>
+         <lastmod>2025-09-18</lastmod>
     </url>
     <url>
          <loc>https://bontiharyanto.github.io/horiladoc/admin/admin-payroll/</loc>
-         <lastmod>2025-09-17</lastmod>
+         <lastmod>2025-09-18</lastmod>
     </url>
     <url>
          <loc>https://bontiharyanto.github.io/horiladoc/admin/admin-performance-management/</loc>
-         <lastmod>2025-09-17</lastmod>
+         <lastmod>2025-09-18</lastmod>
     </url>
     <url>
          <loc>https://bontiharyanto.github.io/horiladoc/admin/admin-project-management/</loc>
-         <lastmod>2025-09-17</lastmod>
+         <lastmod>2025-09-18</lastmod>
     </url>
     <url>
          <loc>https://bontiharyanto.github.io/horiladoc/admin/admin-recruitment/</loc>
-         <lastmod>2025-09-17</lastmod>
+         <lastmod>2025-09-18</lastmod>
     </url>
     <url>
          <loc>https://bontiharyanto.github.io/horiladoc/user/user-asset-management/</loc>
-         <lastmod>2025-09-17</lastmod>
+         <lastmod>2025-09-18</lastmod>
     </url>
     <url>
          <loc>https://bontiharyanto.github.io/horiladoc/user/user-attendance-tracking/</loc>
-         <lastmod>2025-09-17</lastmod>
+         <lastmod>2025-09-18</lastmod>
     </url>
     <url>
          <loc>https://bontiharyanto.github.io/horiladoc/user/user-calendar/</loc>
-         <lastmod>2025-09-17</lastmod>
+         <lastmod>2025-09-18</lastmod>
     </url>
     <url>
          <loc>https://bontiharyanto.github.io/horiladoc/user/user-employee-management/</loc>
-         <lastmod>2025-09-17</lastmod>
+         <lastmod>2025-09-18</lastmod>
     </url>
     <url>
          <loc>https://bontiharyanto.github.io/horiladoc/user/user-helpdesk/</loc>
-         <lastmod>2025-09-17</lastmod>
+         <lastmod>2025-09-18</lastmod>
     </url>
     <url>
          <loc>https://bontiharyanto.github.io/horiladoc/user/user-leave-management/</loc>
-         <lastmod>2025-09-17</lastmod>
+         <lastmod>2025-09-18</lastmod>
     </url>
     <url>
          <loc>https://bontiharyanto.github.io/horiladoc/user/user-offboarding/</loc>
-         <lastmod>2025-09-17</lastmod>
+         <lastmod>2025-09-18</lastmod>
     </url>
     <url>
          <loc>https://bontiharyanto.github.io/horiladoc/user/user-onboarding/</loc>
-         <lastmod>2025-09-17</lastmod>
+         <lastmod>2025-09-18</lastmod>
     </url>
     <url>
          <loc>https://bontiharyanto.github.io/horiladoc/user/user-payroll/</loc>
-         <lastmod>2025-09-17</lastmod>
+         <lastmod>2025-09-18</lastmod>
     </url>
     <url>
          <loc>https://bontiharyanto.github.io/horiladoc/user/user-performance-management/</loc>
-         <lastmod>2025-09-17</lastmod>
+         <lastmod>2025-09-18</lastmod>
     </url>
     <url>
          <loc>https://bontiharyanto.github.io/horiladoc/user/user-project-management/</loc>
-         <lastmod>2025-09-17</lastmod>
+         <lastmod>2025-09-18</lastmod>
     </url>
     <url>
          <loc>https://bontiharyanto.github.io/horiladoc/user/user-recruitment/</loc>
-         <lastmod>2025-09-17</lastmod>
+         <lastmod>2025-09-18</lastmod>
     </url>
 </urlset>

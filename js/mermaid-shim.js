@@ -1,19 +1,23 @@
-// Ubah <pre><code class="language-mermaid">...</code></pre>
-// menjadi <div class="mermaid">...</div> agar pasti diparse Mermaid.
-window.addEventListener('DOMContentLoaded', () => {
-  document.querySelectorAll('code.language-mermaid').forEach(code => {
-    const pre = code.closest('pre');
-    if (!pre) return;
-    const div = document.createElement('div');
-    div.className = 'mermaid';
-    // gunakan textContent agar karakter tidak ter-escape
-    div.textContent = code.textContent;
-    pre.replaceWith(div);
-  });
+(function () {
+  function renderMermaid() {
+    document.querySelectorAll(
+      'pre code.language-mermaid, pre code.mermaid, pre code[class*="language-mermaid"]'
+    ).forEach((code) => {
+      const pre = code.parentElement;
+      const div = document.createElement('div');
+      div.className = 'mermaid';
+      div.textContent = code.textContent;
+      pre.replaceWith(div);
+    });
 
-  if (window.mermaid) {
-    mermaid.initialize({ startOnLoad: true, securityLevel: 'loose' });
-    // paksa init pada elemen yang baru di-convert
-    mermaid.init(undefined, document.querySelectorAll('.mermaid'));
+    if (window.mermaid) {
+      mermaid.initialize({ startOnLoad: false, securityLevel: 'loose', logLevel: 'debug' });
+      mermaid.run({ querySelector: '.mermaid' });
+    }
   }
-});
+
+  document.addEventListener('DOMContentLoaded', renderMermaid);
+  if (window.document$ && window.document$.subscribe) {
+    window.document$.subscribe(renderMermaid);
+  }
+})();
